@@ -1,0 +1,40 @@
+@import url("../scss/_reset.css");
+@import url("../scss/_main.css");
+.my-knowledge {
+  margin-top: 100px;
+}
+.my-knowledge .container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.my-knowledge .container .caption {
+  font-size: 30px;
+  text-transform: uppercase;
+  color: white;
+  margin-bottom: 30px;
+}
+.my-knowledge .container .main-block ul {
+  background-color: rgba(255, 255, 255, 0.685);
+  border-radius: 44px;
+  padding: 100px;
+  list-style: circle;
+  display: flex;
+  flex-direction: column;
+}
+.my-knowledge .container .main-block ul li a {
+  font-size: 25px;
+  color: #26569c;
+}
+
+.footer {
+  margin-top: 50px;
+  background-color: #305ed1;
+}
+.footer .container .logo img {
+  width: 110px;
+  height: 130px;
+}
+
+/*# sourceMappingURL=main.css.map */
